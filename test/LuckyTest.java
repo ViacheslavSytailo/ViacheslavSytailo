@@ -1,4 +1,4 @@
-import homework5.Lucky;
+import homework7.Lucky;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
