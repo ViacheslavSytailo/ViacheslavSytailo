@@ -19,14 +19,13 @@ public class SeleniumStart
 //        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
        WebDriverManager.chromedriver().setup();
-
+        driver = new ChromeDriver();
 
     }
 
     @Test
     public void firstTest()
-    {
-        driver = new ChromeDriver();
+    { 
         driver.get("https://demoqa.com/");
     }
 
