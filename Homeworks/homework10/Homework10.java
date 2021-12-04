@@ -61,7 +61,7 @@ public class Homework10
         driver.findElement(By.xpath("//*[@class = 'custom-control-label'][contains(text(), 'Music')]")).click();
 
 
-        File file = new File("C:/Users/38067/Desktop/Automation QA/Project/ViacheslavSytailo/target/Test_image.jpg");
+        File file = new File("target/Test_image.jpg");
         driver.findElement(By.id("uploadPicture")).sendKeys(file.getAbsolutePath());
 
         driver.findElement(By.id("currentAddress")).sendKeys("Kyiv, Lomonosova str.");
