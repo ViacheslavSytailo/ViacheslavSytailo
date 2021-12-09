@@ -58,6 +58,7 @@ public class Homework10
         subjectInp.click();
         subjectInp.sendKeys("English");
         subjectInp.sendKeys(Keys.ENTER);
+        ((JavascriptExecutor) driver).executeScript("scroll(0,200)");
         driver.findElement(By.xpath("//*[@class = 'custom-control-label'][contains(text(), 'Music')]")).click();
 
 
