@@ -13,6 +13,10 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <suiteXmlFiles>
+        <suiteXmlFile>src/run.xml</suiteXmlFile>
+    </suiteXmlFiles>
+
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
